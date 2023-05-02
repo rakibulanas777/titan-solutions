@@ -1,0 +1,86 @@
+@import "../../variables";
+.mobileNavbar-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+	top: 20px;
+	z-index: 500;
+	> .mobileNavbar-container {
+		width: 90%;
+		height: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		> .top {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			> a {
+				text-decoration: none;
+				> img {
+					height: 60px;
+				}
+			}
+			> img {
+				width: 40px;
+			}
+		}
+
+		> .bottom {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			height: 80%;
+			width: 90%;
+			> a {
+				font-size: 16px;
+				color: #ffffff;
+				padding: 15px 0;
+				text-decoration: none;
+				margin-top: 7px;
+				background-color: #5b6c73;
+				font-weight: bold;
+			}
+			button {
+				color: #000000 !important;
+
+				background: transparent;
+				font-weight: 400 !important;
+				font-size: 16px;
+				display: inline-block;
+				transition: 0.3s;
+				margin-right: 0.5em;
+				background: rgba(74, 74, 74, 0.55);
+				border-radius: 11px;
+				padding: 13px 28px;
+
+				outline: 0;
+				> a {
+					font-size: 16px;
+					color: #000000;
+					text-decoration: none;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}
+.mobileNavbar-wrapper.active {
+	position: fixed;
+	.mobileNavbar-container {
+		> .top {
+			> a {
+				> img {
+					display: none;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 1099px) {
+	.mobileNavbar-wrapper {
+		display: none;
+	}
+}

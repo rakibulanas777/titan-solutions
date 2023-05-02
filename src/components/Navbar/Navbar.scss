@@ -1,0 +1,80 @@
+@import "../../variables";
+.navbar-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 500;
+	height: 150px;
+	color: #fff;
+	> .navbar-container {
+		width: 100%;
+		max-width: $appmaxwidth;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+		padding: 0 40px;
+		position: relative;
+		.logo {
+			width: 200px;
+		}
+		> div {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			> div {
+				display: flex;
+				align-items: center;
+
+				> a {
+					color: #333333;
+					padding: 0 15px;
+					text-decoration: none;
+					font-size: 1rem;
+					font-weight: 400;
+					line-height: 1.5;
+					> img {
+						// width: 150px;
+					}
+				}
+				> a:hover {
+					// transform: scale(1.2);
+					color: #000000;
+				}
+				button {
+					color: #000000 !important;
+
+					background: transparent;
+					font-weight: 400 !important;
+					font-size: 16px;
+					display: inline-block;
+					transition: 0.3s;
+					margin-right: 0.5em;
+					background: rgba(74, 74, 74, 0.55);
+					border-radius: 11px;
+					padding: 13px 28px;
+
+					outline: 0;
+					> a {
+						font-size: 16px;
+						color: #000000;
+						text-decoration: none;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+}
+.navbar-wrapper.active {
+	display: none;
+}
+
+@media screen and (max-width: 1099px) {
+	.navbar-wrapper {
+		display: none;
+	}
+}

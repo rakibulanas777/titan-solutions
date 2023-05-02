@@ -1,0 +1,102 @@
+@import "../../variables";
+.about-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #00120c;
+  background-image: url(../../images/el1.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 50%;
+  .about-container {
+    max-width: $appmaxwidth;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 50px;
+
+    >div{
+      width: 340px;
+      height: 180px;
+      background-image: url(../../images/about.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin: 10px;
+      >div{
+        display: flex;
+        align-items: center;
+      }
+      span{
+        font-size: 40px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+      h6{
+        font-size: 40px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 0.2em;
+        color: #00FA9F;
+        margin: 0;
+        margin-left: 40px;
+      }
+    }
+   
+  }
+}
+@media screen and (max-width: 1100px) {
+  .about-wrapper {
+    .about-container {
+     flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-wrapper {
+    .about-container {
+      >div{
+        width: 280px;
+        height: 150px;
+        background-image: url(../../images/about.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        margin: 10px;
+        h2{
+          font-size: 40px;
+          line-height: 50px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          margin-left: 40px;
+          margin-top: 40px;
+          margin-bottom: 20px;
+        }
+        p{
+          font-size: 14px;
+          line-height: 23px;
+          letter-spacing: 0.2em;
+          color: #00FA9F;
+          margin: 0;
+          margin-left: 40px;
+        }
+      }
+    }
+  }
+}
