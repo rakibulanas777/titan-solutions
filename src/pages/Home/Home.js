@@ -13,7 +13,7 @@ export default function Home() {
 	return (
 		<div className="home-wrapper" id="home" data-aos="fade-up">
 			<div className="home-container">
-				<div className="right">
+				<div className="right lg:mb-0 mb-10">
 					<h3>
 						The only proxy solution <br /> you need
 					</h3>
