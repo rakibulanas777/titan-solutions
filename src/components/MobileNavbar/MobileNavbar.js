@@ -64,7 +64,7 @@ function MobileNavbar() {
 						<HashLink smooth to="/#contact">
 							Contact
 						</HashLink>
-						<button>
+						<button className="mt-4">
 							<a href="https://dashboard.titansolutions.co.uk/">Dashboard</a>
 						</button>
 						{/* <button className="pt-8">

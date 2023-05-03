@@ -48,7 +48,7 @@ function Navbar() {
 					</div>
 
 					<div className="right">
-						<button>
+						<button className="rounded-sm">
 							{" "}
 							<a href="https://dashboard.titansolutions.co.uk/" target="_blank">
 								Dashboard
