@@ -3,7 +3,7 @@ import PlanCard from "./PlanCard/PlanCard";
 import "./styles.scss";
 
 export default function Plans() {
-	const [clicked, setClicked] = useState("Residential");
+	const [clicked, setClicked] = useState("ISPs");
 	return (
 		<div className="plans-wrapper" id="pricing">
 			<div className="plans-container">
@@ -11,23 +11,12 @@ export default function Plans() {
 
 				<div className="tabs-container">
 					<button
-						onClick={() => setClicked("Residential")}
-						className={clicked === "Residential" ? "selected" : ""}
-					>
-						Residential
-					</button>
-					<button
-						onClick={() => setClicked("isp")}
-						className={clicked === "isp" ? "selected" : ""}
+						onClick={() => setClicked("ISPs")}
+						className={clicked === "ISPs" ? "selected" : ""}
 					>
 						ISPs
 					</button>
-					<button
-						className={clicked === "subnets" ? "selected" : ""}
-						onClick={() => setClicked("subnets")}
-					>
-						Subnets
-					</button>
+
 					<button>
 						<a
 							href="https://bitvps.com/"
@@ -38,7 +27,7 @@ export default function Plans() {
 						</a>
 					</button>
 				</div>
-				{clicked === "Residential" && (
+				{clicked === "ISPs" && (
 					<div className="content">
 						{[
 							{
@@ -75,47 +64,6 @@ export default function Plans() {
 								l4: "US Hosted",
 
 								opt1: "£1.70",
-							},
-						].map((item, i) => (
-							<PlanCard key={i} data={item} />
-						))}
-					</div>
-				)}
-				{clicked === "isp" && (
-					<div className="content">
-						{[
-							{
-								heading: "Monthly",
-								title: "Packetstream",
-
-								l1: " Instant Delivery",
-								l2: " Use as filler data for other plans",
-								l3: " Mixed Pools, Maximum Reliability",
-								l4: " Great for Retail/Misc Sites",
-								l5: "No Expiration on Data",
-								opt1: "1 Gb",
-								opt2: "2",
-							},
-						].map((item, i) => (
-							<PlanCard key={i} data={item} />
-						))}
-					</div>
-				)}
-
-				{clicked === "subnets" && (
-					<div className="content">
-						{[
-							{
-								heading: "Monthly",
-								title: "Packetstream",
-
-								l1: " Instant Delivery",
-								l2: " Use as filler data for other plans",
-								l3: " Mixed Pools, Maximum Reliability",
-								l4: " Great for Retail/Misc Sites",
-								l5: "No Expiration on Data",
-								opt1: "1 Gb",
-								opt2: "2",
 							},
 						].map((item, i) => (
 							<PlanCard key={i} data={item} />

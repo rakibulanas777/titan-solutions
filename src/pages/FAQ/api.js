@@ -1,43 +1,17 @@
 export const questions = [
 	{
 		id: 1,
-		question: "Do these come with a Proxy?",
-		answer: "How can I join?",
+		question: "How long will it take for proxies to be delivered?",
+		answer: "Proxies will be delivered instantaneously",
 	},
 	{
 		id: 2,
-		question: "Can I cancel anytime?",
-		answer:
-			"An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the accordion content.",
+		question: "How can I contact support?",
+		answer: "Feel free to reach out to use through discord",
 	},
 	{
 		id: 3,
-		question: "Can I cancel anytime?",
-		answer:
-			"An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the accordion content.",
-	},
-	{
-		id: 4,
-		question: "Can I cancel anytime?",
-		answer:
-			"An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the accordion content.",
-	},
-	{
-		id: 5,
-		question: "Can I cancel anytime?",
-		answer:
-			"An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the accordion content.",
-	},
-	{
-		id: 6,
-		question: "Can I cancel anytime?",
-		answer:
-			"An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the accordion content.",
-	},
-	{
-		id: 7,
-		question: "Can I cancel anytime?",
-		answer:
-			"An accordion is used to show (and hide) HTML content. Use the w3-hide class to hide the accordion content.",
+		question: "How will proxies be authenticated?",
+		answer: "All proxies will be authenticated with a username:password",
 	},
 ];
