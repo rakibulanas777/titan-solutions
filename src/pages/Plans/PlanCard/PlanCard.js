@@ -11,7 +11,7 @@ export default function PlanCard(props) {
 	}, []);
 
 	return (
-		<div className="planCard-wrapper" data-aos="flip-down">
+		<div className="planCard-wrapper cursor-pointer" data-aos="flip-down">
 			<div className="title-container">
 				{/* <h5>{data.heading}</h5> */}
 				<h3>{data.title}</h3>
@@ -30,7 +30,7 @@ export default function PlanCard(props) {
 				{data.opt2 && <option>{data?.opt2}</option>}
 			</select>
 
-			<a href="https://dashboard.ahiddenproxy.com/">
+			<a href="https://dashboard.titansolutions.co.uk/">
 				<button>Buy Now</button>
 			</a>
 		</div>

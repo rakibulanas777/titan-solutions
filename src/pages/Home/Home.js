@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import { Link } from "react-router-dom";
-import homet from "../../images/homet.png";
+
 import "./styles.scss";
 import home from "../../images/[CITYPNG 2.png";
 import { HashLink } from "react-router-hash-link";
@@ -12,7 +11,7 @@ export default function Home() {
 		AOS.refresh();
 	}, []);
 	return (
-		<div className="home-wrapper" id="home" data-aos="zoom-in">
+		<div className="home-wrapper" id="home" data-aos="fade-up">
 			<div className="home-container">
 				<div className="right">
 					<h3>

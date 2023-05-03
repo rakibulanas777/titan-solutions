@@ -16,16 +16,6 @@ export default function Plans() {
 					>
 						ISPs
 					</button>
-
-					<button>
-						<a
-							href="https://bitvps.com/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							Services
-						</a>
-					</button>
 				</div>
 				{clicked === "ISPs" && (
 					<div className="content">
@@ -45,7 +35,7 @@ export default function Plans() {
 
 							{
 								heading: "Monthly",
-								title: "DE",
+								title: "DE ISPs",
 
 								l1: " Instant Delivery",
 								l2: "99% Uptime",
@@ -56,7 +46,7 @@ export default function Plans() {
 							},
 							{
 								heading: "Monthly",
-								title: "US",
+								title: "USA ISPs",
 
 								l1: " Instant Delivery",
 								l2: "99% Uptime",

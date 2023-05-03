@@ -4,12 +4,17 @@ const MyAccordion = ({ element }) => {
 	const { question, answer } = element;
 	const [show, setShow] = useState(false);
 	return (
-		<div className="answer-qestion bg-gray-900  w-full cursor-pointer text-white py-3 mb-2 px-10">
+		<div
+			className="answer-qestion bg-gray-900  w-full cursor-pointer text-white py-3 mb-2 px-10"
+			data-aos="fade-up"
+		>
 			<div
 				className=" flex justify-between items-center"
 				onClick={() => setShow(!show)}
 			>
-				<div className="question">{question}</div>
+				<div className="question font-bold transition-all duration-300">
+					{question}
+				</div>
 				{show ? (
 					<i class="fas fa-angle-up"></i>
 				) : (

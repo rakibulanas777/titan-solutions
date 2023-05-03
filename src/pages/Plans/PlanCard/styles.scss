@@ -64,12 +64,21 @@
 		padding: 14px 28px;
 		border: none;
 		outline: 0;
+		transition: all 0.3s;
 		border-radius: 50px;
 		color: #010c08;
 		> a {
 			text-decoration: none;
 			color: #010c08;
 			width: 100%;
+		}
+	}
+	button:hover {
+		background-color: #010c08;
+		color: #ffffff;
+		> a {
+			color: #ffffff;
+			text-decoration: none;
 		}
 	}
 }

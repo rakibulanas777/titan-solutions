@@ -43,12 +43,13 @@
 				padding: 8px 20px;
 				border-radius: 8px;
 				cursor: pointer;
+				transition: all 0.3s;
 				margin-top: 40px;
 			}
-			// button:hover {
-			// 	background-color: #dd5a5d;
-			// 	font-weight: 700;
-			// }
+			button:hover {
+				background-color: #000000;
+				color: white !important;
+			}
 		}
 		.left {
 			width: 50%;
@@ -56,8 +57,32 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+
 			> img {
 				width: 100%;
+				-webkit-animation: mover 1s infinite alternate;
+				animation: mover 1s infinite alternate;
+			}
+			> img {
+				width: 100%;
+				-webkit-animation: mover 1s infinite alternate;
+				animation: mover 1s infinite alternate;
+			}
+			@-webkit-keyframes mover {
+				0% {
+					transform: translateY(0);
+				}
+				100% {
+					transform: translateY(-30px);
+				}
+			}
+			@keyframes mover {
+				0% {
+					transform: translateY(0);
+				}
+				100% {
+					transform: translateY(-30px);
+				}
 			}
 		}
 	}

@@ -19,7 +19,7 @@
 		padding: 0 40px;
 		position: relative;
 		.logo {
-			width: 200px;
+			width: 220px;
 		}
 		> div {
 			display: flex;
@@ -35,13 +35,14 @@
 					text-decoration: none;
 					font-size: 1rem;
 					font-weight: 400;
+					transition: all 0.3s;
 					line-height: 1.5;
 					> img {
 						// width: 150px;
 					}
 				}
 				> a:hover {
-					// transform: scale(1.2);
+					transform: scale(1.1);
 					color: #000000;
 				}
 				button {
@@ -61,6 +62,16 @@
 					> a {
 						font-size: 16px;
 						color: #000000;
+						text-decoration: none;
+						font-weight: 600;
+					}
+				}
+				button:hover {
+					background-color: #000000;
+					color: white !important;
+					> a {
+						font-size: 16px;
+						color: white;
 						text-decoration: none;
 						font-weight: 600;
 					}

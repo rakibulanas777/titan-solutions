@@ -29,7 +29,7 @@ function Navbar() {
 			className={nav ? "navbar-wrapper active" : "navbar-wrapper"}
 		>
 			<div className="navbar-container">
-				<img src={logo} alt="" className="logo" />
+				<img src={logo} alt="" className="logo cursor-pointer" />
 				<div>
 					<div data-aos="left">
 						<HashLink smooth to="/#home">
@@ -38,7 +38,7 @@ function Navbar() {
 						<HashLink smooth to="/#features">
 							Features
 						</HashLink>
-						<HashLink smooth to="/#features">
+						<HashLink smooth to="/#pricing">
 							Pricing
 						</HashLink>
 
@@ -50,7 +50,9 @@ function Navbar() {
 					<div className="right">
 						<button>
 							{" "}
-							<a href="">Dashboard</a>
+							<a href="https://dashboard.titansolutions.co.uk/" target="_blank">
+								Dashboard
+							</a>
 						</button>
 					</div>
 				</div>

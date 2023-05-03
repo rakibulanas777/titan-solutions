@@ -41,8 +41,8 @@ function MobileNavbar() {
 		>
 			<div className="mobileNavbar-container">
 				<div className="top">
-					<Link to="/">
-						<img src={logo} alt="" />
+					<Link to="/" className="cursor-pointer">
+						<img src={logo} alt="" className="h-10" />
 					</Link>
 					<GiHamburgerMenu onClick={toggle} className="text-black icon" />
 				</div>
@@ -64,6 +64,9 @@ function MobileNavbar() {
 						<HashLink smooth to="/#contact">
 							Contact
 						</HashLink>
+						<button>
+							<a href="https://dashboard.titansolutions.co.uk/">Dashboard</a>
+						</button>
 						{/* <button className="pt-8">
 							{" "}
 							<a href="">Dashboard</a>
