@@ -24,11 +24,11 @@ export default function Features() {
 				<div className="text-center mb-14" data-aos="fade-up">
 					<span>Features</span>
 					<h1 className="sm:text-3xl text-2xl font-medium title-font mt-2 text-black mb-4">
-						What we have to offer
+						What we provide
 					</h1>
 					<p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
-						We have a full range of different products to support your sneaker
-						botting career from <span>ISPs, residential and gmails.</span>
+						We provide a varied selection of products that are tailored to meet
+						your needs.
 					</p>
 				</div>
 				<div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
@@ -43,12 +43,11 @@ export default function Features() {
 						/>
 						<div className="flex-grow">
 							<h2 className="text-black text-lg title-font font-medium mb-3">
-								Lightning Speeds
+								Titan Speeds!
 							</h2>
 							<p className="leading-relaxed text-black">
-								Our Proxies are <span>extremely fast</span> allowing your
-								checkout times to be even faster! Try using Gravity proxies
-								today.
+								Unmatched Speeds getting you to checkout faster then ever
+								before. Try our proxies today.
 							</p>
 						</div>
 					</div>
@@ -66,9 +65,8 @@ export default function Features() {
 								24/7 Support
 							</h2>
 							<p className="leading-relaxed text-black">
-								We provide <span>support for any issues</span> that you may
-								have. We have a <span>Discord</span> with staff that are happy
-								to assist you.
+								We have knowledgeable staff to help in our discord. Providing
+								you support at critical times in a timely manner.
 							</p>
 						</div>
 					</div>
@@ -86,8 +84,8 @@ export default function Features() {
 								Universal Proxies
 							</h2>
 							<p className="leading-relaxed text-black">
-								Our proxies are <span>fast & reliable</span> . We are compatible
-								with Supreme, Shopify, Footsites, SNKRS, Adidas, and much more!
+								Our proxies are highly efficient, dependable, and work
+								seamlessly with most websites.
 							</p>
 						</div>
 					</div>

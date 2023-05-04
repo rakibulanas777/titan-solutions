@@ -15,9 +15,9 @@ export default function Home() {
 			<div className="home-container">
 				<div className="right lg:mb-0 mb-10">
 					<h3>
-						The only proxy solution <br /> you need
+						Titan Solutions, one place <br /> for everything
 					</h3>
-					<p>Unmatched performance</p>
+					<p>Unrivaled performance</p>
 					<div>
 						<HashLink smooth to="/#pricing">
 							<button>Get Started</button>

@@ -17,7 +17,7 @@ export default function FAQ() {
 			<div className="faq-container pb-10" data-aos="fade-up">
 				<h5>Frequently Asked Questions</h5>
 				<h2 className="mb-14">
-					Get answers to the most commonly asked questions.
+					Obtain responses to the frequently asked questions.
 				</h2>
 
 				{data.map((curElem) => {

@@ -7,7 +7,7 @@ export const questions = [
 	{
 		id: 2,
 		question: "How can I contact support?",
-		answer: "Feel free to reach out to use through discord",
+		answer: "Feel free to reach out to us through discord",
 	},
 	{
 		id: 3,
